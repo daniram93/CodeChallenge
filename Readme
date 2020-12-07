@@ -1,0 +1,31 @@
+Code Challenge for MasMovil
+Author: Daniel Ramirez
+Email: daniram_93@hotmail.com
+Objective: Phone App
+
+Description:
+
+In the project, three folders will be found:
+1)PhoneCatalog
+2)OrderExecution
+3)Execution
+
+1)PhoneCatalog
+Creates a Rest API to retrieve a phone catalog.
+Currently the catalog is created as a spring.datasource.url. This extract the database catalog from the file src/main/resources/data.sql.
+Once executed, use curl -X GET http://localhost:8080/phones to check the catalog.
+
+2)OrderExecution
+Receive an order, retrieve the phone catalog and generate a JSON file with the order information adding the total price of the order.
+Replace the order_path in config.properties.
+
+3)Execution
+Execute the whole application: load the catalog and process the order.
+It uses the JARs from PhoneCatalog and OrderExecution.
+Replace the order_path, order_jar and phone_jar in config.properties.
+Execute the bash script run_to.sh. This script will generate a log and a JSON file called orderList with the order information.
+
+
+Future Implementations:
+1) Dockerizing the app for an easier execution.
+2) Externalize the test database so it can be loaded from any external .sql file.

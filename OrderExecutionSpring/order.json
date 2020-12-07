@@ -1,0 +1,17 @@
+[
+	{
+		"order1": {
+			"customerFirstName": "Lokesh",
+			"customerLastName": "Gupta",
+			"customerEmail": "test@gmail.com",
+			"customerOrder": ["iPhone 12", "Samsung Galaxy Z"]
+		},
+		"order2": {
+			"customerFirstName": "Lokesh",
+			"customerLastName": "Gupta",
+			"customerEmail": "test@gmail.com",
+			"customerOrder": ["iPhone 12", "Samsung Galaxy Z"]
+		}
+	}	
+]
+

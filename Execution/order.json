@@ -1,0 +1,17 @@
+[
+	{
+		"order1": {
+			"customerFirstName": "Customer1",
+			"customerLastName": "Customer1",
+			"customerEmail": "test@gmail.com",
+			"customerOrder": ["iPhone 12", "Samsung Galaxy Z"]
+		},
+		"order2": {
+			"customerFirstName": "Customer2",
+			"customerLastName": "Customer2",
+			"customerEmail": "test@gmail.com",
+			"customerOrder": ["Xiaomi Mi 10 Pro", "OnePlus 8T"]
+		}
+	}	
+]
+
